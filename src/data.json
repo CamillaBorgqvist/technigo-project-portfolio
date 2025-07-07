@@ -5,8 +5,8 @@
       "image": "/portfolio.jpg",
       "tags": [ "HTML5", "CSS3", "JavaScript", "React"],
       "description": "This Portfolio website built with React.",
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://portfolio-camillaborgqvist.netlify.app/",
+      "github": "https://github.com/CamillaBorgqvist/technigo-project-portfolio"
     },
     {
       "name": "News site - Make it Work",
