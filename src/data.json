@@ -1,58 +1,55 @@
 {
   "projects": [
     {
-      "name": "News site",
-      "image": "",
-      "tags": [
-        "HTML5",
-        "CSS3"
-      ],
+      "name": "Portfolio - Simply my Projects",
+      "image": "/portfolio.jpg",
+      "tags": [ "HTML5", "CSS3", "JavaScript", "React"],
+      "description": "This Portfolio website built with React.",
       "netlify": "link",
       "github": "link"
     },
     {
-      "name": "Business site",
-      "image": "",
-      "tags": [
-        "HTML5",
-        "CSS3"
-      ],
-      "netlify": "link",
-      "github": "link"
+      "name": "News site - Make it Work",
+      "image": "/makeitwork.jpg",
+      "tags": [ "HTML5", "CSS3" ],
+      "description": "A simple, responsive website using HTML, CSS. ",
+      "netlify": "https://news-makeitwork.netlify.app/",
+      "github": "https://github.com/CamillaBorgqvist/news-site-make-it-work"
     },
     {
-      "name": "Pizzabot",
-      "image": "",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
-      "netlify": "link",
-      "github": "link"
+      "name": "Business site - Home of Events",
+      "image": "/homeofevents.jpg",
+      "tags": [ "HTML5", "CSS3" ],
+      "description": "Responsive website using HTML, CSS with focus on using a Hero section video and form.",
+      "netlify": "https://business-homeofevents.netlify.app/",
+      "github": "https://github.com/CamillaBorgqvist/technigo-project-business-site"
     },
     {
-      "name": "Library",
-      "image": "",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
-      "netlify": "link",
-      "github": "link"
+      "name": "Weather app - In Stockholm",
+      "image": "/weatherapp.jpg",
+      "tags": [ "HTML5", "CSS3", "JavaScript", "APIs" ],
+      "description": "A weather app getting the current weather using an open API.",
+      "netlify": "https://weather-todayinstockholm.netlify.app",
+      "github": "https://github.com/CamillaBorgqvist/technigo-project-weather-app"
     },
     {
-      "name": "Weather app",
-      "image": "",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "APIs"
-      ],
-      "netlify": "link",
-      "github": "link"
+      "name": "Library - Page Turner Club",
+      "image": "/pageturnerclub.jpg",
+      "tags": [ "HTML5", "CSS3", "JavaScript" ],
+      "description": "Website build with JavaScript focusing on different filtering and sorting options.",
+      "netlify": "https://library-pageturnerclub.netlify.app/",
+      "github": "https://github.com/CamillaBorgqvist/technigo-project-library"
     }
-  ]
+  ],
+   
+      "skills": [
+        "HTML5",
+        "CSS3",
+        "JavaScript ES6",
+        "TypeScript",
+        "React",
+        "GitHub"
+      ]
+
 }
+  
