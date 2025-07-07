@@ -25,8 +25,9 @@ h1{
 
 h2{
   color:#819A91;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .hero-section{
@@ -40,11 +41,10 @@ h2{
   width:400px;
 }
 
-.hero-image img{
-        
+.hero-image img{  
   object-fit: cover; 
   width: 200px;        
-    height: 200px;   
+  height: 200px;   
   border-radius: 50%; 
   border: 2px solid #819A91;
 }
@@ -178,14 +178,22 @@ h2{
   padding: 0 15px;
 }
 
+.tag-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  height: 45px;
+}
+
 .tag{
-  color:#819A91;
+  color:#D1d8BE;
   border: 1px solid #819A91;
   border-radius: 0px;
   padding: 0px 5px;
   text-align: center;
-  font-weight: bold;
-  margin-right: 8px;
+  /*font-weight: bold;*/
+  height: 25px;
 }
 
 .button-container{

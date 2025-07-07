@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "name": "Portfolio - Simply my Projects",
+      "name": "Portfolio - My Projects",
       "image": "/portfolio.jpg",
       "tags": [ "HTML5", "CSS3", "JavaScript", "React"],
       "description": "This Portfolio website built with React.",
