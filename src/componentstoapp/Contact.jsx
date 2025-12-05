@@ -5,7 +5,7 @@ export const Contact =() => {
                 <img src="/contactimage.png" />
             </div>
             <div className="contact-text">
-                <h1>Contact</h1>
+                <h2>Contact</h2>
                 <p>Camilla Borgqvist</p>
                 <p>camilla.borgqvist@hotmail.com</p>
                 <div className="logo-container">
@@ -16,8 +16,7 @@ export const Contact =() => {
                         <img src="/logo-linkedin.svg" alt="Linkedin logo"/>
                     </a>
                 </div>
-            </div>
-                 
+            </div>    
         </div>
     )
 }

@@ -1,55 +1,91 @@
 {
   "projects": [
     {
-      "name": "Portfolio - My Projects",
+      "name": "Portfolio",
       "image": "/portfolio.jpg",
-      "tags": [ "HTML5", "CSS3", "JavaScript", "React"],
+      "tags": [ "HTML", "CSS", "JavaScript", "React"],
       "description": "This Portfolio website built with React.",
       "netlify": "https://portfolio-camillaborgqvist.netlify.app/",
       "github": "https://github.com/CamillaBorgqvist/technigo-project-portfolio"
     },
     {
-      "name": "News site - Make it Work",
-      "image": "/makeitwork.jpg",
-      "tags": [ "HTML5", "CSS3" ],
-      "description": "A simple, responsive website using HTML, CSS. ",
-      "netlify": "https://news-makeitwork.netlify.app/",
-      "github": "https://github.com/CamillaBorgqvist/news-site-make-it-work"
+      "name": "Todo list",
+      "image": "/tasklist.jpg",
+      "tags": [ "HTML", "CSS", "React" ],
+      "description": "Task manager using global state with useContext ",
+      "netlify": "https://createyouragenda.netlify.app/",
+      "github": "https://github.com/CamillaBorgqvist/technigo-project-todo-context"
     },
     {
-      "name": "Business site - Home of Events",
-      "image": "/homeofevents.jpg",
-      "tags": [ "HTML5", "CSS3" ],
-      "description": "Responsive website using HTML, CSS with focus on using a Hero section video and form.",
-      "netlify": "https://business-homeofevents.netlify.app/",
-      "github": "https://github.com/CamillaBorgqvist/technigo-project-business-site"
+      "name": "Happy Thoughts",
+      "image": "/happy.jpg",
+      "tags": [ "HTML", "CSS", "React", "API","Node", "Express", "Mongoose"],
+      "description": "Fullstack project build with React. API, MongoDB,",
+      "netlify": "https://sharehappythoughts.netlify.app/",
+      "github": "https://github.com/CamillaBorgqvist/technigo-project-happy-thoughts"
     },
     {
-      "name": "Weather app - In Stockholm",
+      "name": "Weather app",
       "image": "/weatherapp.jpg",
-      "tags": [ "HTML5", "CSS3", "JavaScript", "APIs" ],
+      "tags": [ "HTML", "CSS", "JavaScript", "API" ],
       "description": "A weather app getting the current weather using an open API.",
       "netlify": "https://weather-todayinstockholm.netlify.app",
       "github": "https://github.com/CamillaBorgqvist/technigo-project-weather-app"
     },
     {
-      "name": "Library - Page Turner Club",
+      "name": "News site",
+      "image": "/makeitwork.jpg",
+      "tags": [ "HTML", "CSS" ],
+      "description": "A simple, responsive website using HTML, CSS. ",
+      "netlify": "https://news-makeitwork.netlify.app/",
+      "github": "https://github.com/CamillaBorgqvist/news-site-make-it-work"
+    },
+    {
+      "name": "Business site",
+      "image": "/homeofevents.jpg",
+      "tags": [ "HTML", "CSS" ],
+      "description": "Responsive website using HTML, CSS with focus on using a Hero section video and form.",
+      "netlify": "https://business-homeofevents.netlify.app/",
+      "github": "https://github.com/CamillaBorgqvist/technigo-project-business-site"
+    },
+    {
+      "name": "Library",
       "image": "/pageturnerclub.jpg",
-      "tags": [ "HTML5", "CSS3", "JavaScript" ],
+      "tags": [ "HTML", "CSS", "JavaScript" ],
       "description": "Website build with JavaScript focusing on different filtering and sorting options.",
       "netlify": "https://library-pageturnerclub.netlify.app/",
       "github": "https://github.com/CamillaBorgqvist/technigo-project-library"
     }
   ],
    
-      "skills": [
-        "HTML5",
-        "CSS3",
-        "JavaScript ES6",
-        "TypeScript",
-        "React",
-        "GitHub"
-      ]
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "API",
+    "Express.js"
+  ],
+
+  "freelance": [
+    {
+      "name": "Sofie Säfvenberg Art",
+      "image": "/sofies.jpg",
+      "tags": [ "HTML", "CSS", "React"],
+      "description": "Website build with React and React Routing",
+      "netlify": "https://sofiesafvenbergart.netlify.app/",
+      "github": "https://github.com/CamillaBorgqvist/sofiesafvenbergart"
+    },
+     {
+      "name": "Strength Body Mind",
+      "image": "/strength.jpg",
+      "tags": [ "HTML", "CSS", "React", "Node", "Express", "Mongoose"],
+      "description": "Fullstack project build with React, MongoDB, Authentication",
+      "netlify": "https://strengthbodymind.netlify.app/",
+      "github": "https://github.com/CamillaBorgqvist/final-project-strength_body_mind"
+    }
+  ]
 
 }
   

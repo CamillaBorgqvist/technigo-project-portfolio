@@ -20,12 +20,20 @@ h1{
   color:#819A91;
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h2{
   color:#819A91;
-  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+h3{
+  color:#819A91;
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -50,7 +58,7 @@ h2{
 }
 
 .skills-section{
-  background-color: #EEEFE0;
+  background-color: rgba(238, 239, 224, 0.6);
   width: 100%;
 }
 
@@ -59,7 +67,7 @@ h2{
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
-  padding: 20px;
+  padding: 20px 35px;
   border-left: 2px solid #819A91;
   border-right: 2px solid #819A91;
   width: fit-content;
@@ -67,115 +75,61 @@ h2{
   margin-right: auto;
 }
 
-.project-section{
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
-.project-section h1{
-  margin-top: 50px;
+.project-section h2{
+  margin-top: 100px;
   text-align: center;
-}
-
-.carousel-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/*Style for arrows in project section*/
-.arrow-button-container{
-  display: flex;
-}
-
-.scroll-arrow {
-  position: static;
-  transform: none;
-  display: flex;
-  justify-content: center;
-  margin: 10px 5px 0 5px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 0.5px solid #EEEFE0;
-  border-radius: 50%;
-  padding: 10px;
-  font-size: 15px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.scroll-arrow:hover {
-  border: 2px solid #EEEFE0;
-  transform: scale(1.1);
-}
-
-.scroll-arrow.left {
-  left: -10px;
-  left: auto;
-  color: #A7C1A8;
-}
-
-.scroll-arrow.right {
-  right: -10px;
-  right:auto;
-  color: #A7C1A8;
 }
 
 .project-container{
   display: flex;
   overflow-x: auto;
-  scroll-behavior: smooth;
-  align-items: center;
-  gap: 30px;
+  gap: 20px;
   scrollbar-width: none;
-  -ms-overflow-style: none; 
-  width: 100vw;
-  box-sizing: border-box;
-  padding-bottom: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
-.project-container::-webkit-scrollbar {
-    display: none;
+.freelance-project-container{
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+  gap: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 .projectcard{
   display:flex;
-  flex: 0 0 auto;
   flex-direction: column;
-  align-items: center;
-  flex-shrink: 0;
-  width: 280px;
+  width: 270px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   gap:10px;
+  border-radius: 10px;
+  /*align-items: center; */
+  flex-shrink: 0;
 }
 
+.projectcard h3{
+  padding: 0px 10px;
+}
 .projectcard p{
-  min-height: 60px
-}
-
-.scroll-buttons {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
-}
-
-.scroll-buttons button {
-  font-size: 1.5rem;
-  background: none;
-  border: none;
-  cursor: pointer;
+  min-height: 70px;
+  margin-top: 0px;
+  padding: 0px 10px;
 }
 
 .projectcard img{
-  width: 230px;
-  height: 230px;
+  width: 80%;
+  height: 220px;
   object-fit: cover;
   padding-top: 25px;
 }
 
-.description{
-  padding: 0 15px;
+.projectcard img{
+  display: block;
+  margin: 0 auto;
 }
 
 .tag-container{
@@ -184,29 +138,38 @@ h2{
   justify-content: center;
   gap: 8px;
   height: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .tag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color:#D1d8BE;
   border: 1px solid #819A91;
-  border-radius: 0px;
+  border-radius: 8px;
+  font-size: 12px;
   padding: 0px 5px;
   text-align: center;
-  /*font-weight: bold;*/
   height: 25px;
 }
 
 .button-container{
-  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 .link-button{
   background-color: #EEEFE0;
   border: 1px solid #819A91;
   margin-right: 8px;
-  border-radius: 10px;
-  padding: 5px 30px;
+  border-radius: 8px;
+  padding: 5px 20px;
   color:#819A91;
+  font-size: 12px;
+  width: 100px;
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -216,38 +179,14 @@ h2{
   transform: scale(1.05);
 }
 
-.tech-section{
-  background-color: #EEEFE0;
-  width: 100%;
-}
-
-.tech-container{
-  display: flex;
-  background-color: #EEEFE0;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-bottom: 40px;
-  gap: 30px;
-}
-
-.tech-section h1{
-  margin-top: 50px;
-  text-align: center;
-  padding-top: 20px;
-}
-
-.tech-list{
-  display: flex;
-  text-align: center;
-}
-
 .contact-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 80px;
+  padding-bottom: 50px;
+  background-color: rgba(238, 239, 224, 0.6);
 }
 
 .contact-text{
@@ -260,75 +199,47 @@ h2{
 }
 
 .contact-image img{
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
+  margin-top: 50px;
 }
 
 
-@media(min-width:668px){ /*tablet, desktop*/
+@media(min-width:600px){
 
   .hero-image img{
     width: 350px;        
     height: 350px; 
   }
 
-  .carousel-wrapper {
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-  }
-
-  .scroll-arrow{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0;                    
-    z-index: 1;
-    display: inline-flex;
-    align-items: center;
-    transition: transform 0.2s ease, border 0.2s ease;
-    font-size: 25px;
-  }
-
-  .scroll-arrow:hover {
-    transform: translateY(-50%) scale(1.1);
-  }
-
-  .scroll-arrow.left {
-    left: -10px;
-  }
-
-  .scroll-arrow.right {
-    right: -10px;
-  }
-
-  .projectcard{
-    width: 350px;  
-  }
-
-  .projectcard img{
-    width: 300px;
-    height: 300px;
-  }
-}
-
-@media(min-width:1025px){ /*desktop*/
   .project-container{
-    margin-top: 100px;
+    gap: 30px;
   }
-
-  .project-section h1{
-    margin-top: 100px;
-  }
-
-  .tech-section h1{
-    margin-top: 100px;
+  .projectcard{
+    width: 330px;  
   }
 
   .contact-container{
     flex-direction: row;
     gap: 50px;
     justify-content: center;
-    margin-top: 50px;
+  }
+
+}
+
+@media(min-width:730px){
+
+  .freelance-project-container{
+    justify-content: center;
+  }
+
+}
+@media(min-width:1025px){
+  .project-container{
+    margin-top: 100px;
+  }
+
+  .project-section h2{
+    margin-top: 100px;
   }
 }

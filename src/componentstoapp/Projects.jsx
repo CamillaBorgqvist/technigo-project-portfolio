@@ -1,47 +1,36 @@
 import data from "../data.json"
-import { ProjectImage } from "../componentstoproject/ProjectImage";
 import { Tags } from "../componentstoproject/Tags";
-import { ProjectName } from "../componentstoproject/ProjectName";
-import { Description } from "../componentstoproject/Description";
 import { Links } from "../componentstoproject/Links";
-import React, {useRef} from "react"
-
 
 export const Projects = () => {
     const projectList = data.projects;
-    const scrollRef = useRef(null);
-
-    const scroll = (direction) => {
-        const { current } = scrollRef;
-        if (current) {
-            const scrollAmount = direction === 'left' ? -300 : 300;
-            current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-        }
-    };
+    const freelanceList = data.freelance;
 
     return (
         <section className="project-section">
-            <h1>Projects</h1>  
-            
-            <div className="carousel-wrapper">
-                
-                <div className="project-container" ref={scrollRef}>
-                    {projectList.map((project) => (
-                        <div key={project.id} className="projectcard"> 
-                            <ProjectImage image={project.image} />
-                            <Tags tags={project.tags} />
-                            <ProjectName name={project.name} />
-                            <Description description={project.description} />
-                            <Links netlify={project.netlify} github={project.github} />
-                        </div>
-                    ))}
-                </div>
-
-                <div className="arrow-button-container">
-                    <button className="scroll-arrow left" onClick={() => scroll('left')}>⬅</button>
-                    <button className="scroll-arrow right" onClick={() => scroll('right')}>➡</button>
-                </div>
-            
+            <h2>Freelance Projects</h2>  
+            <div className="freelance-project-container">
+                {freelanceList.map((freelance) => (
+                    <div key={freelance.id} className="projectcard">
+                        <img src={freelance.image} />
+                        <Tags tags={freelance.tags} />
+                        <h3>{freelance.name}</h3>
+                        <p>{freelance.description}</p>
+                        <Links netlify={freelance.netlify} github={freelance.github} />
+                    </div>       
+                ))}
+            </div>
+            <h2>Education Projects</h2>  
+            <div className="project-container">
+                {projectList.map((project) => (
+                    <div key={project.id} className="projectcard"> 
+                        <img src={project.image} />
+                        <Tags tags={project.tags} />
+                        <h3>{project.name}</h3>
+                        <p>{project.description}</p>
+                        <Links netlify={project.netlify} github={project.github} />
+                    </div>
+                ))}
             </div>
         </section>
     )
